@@ -1,0 +1,542 @@
+
+body{
+    font-family: "Inter", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+
+    .logo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 26px 16px 24px 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+  
+    .form-group i {
+        position: absolute;
+        left: 13px;
+        top: 48%;
+        transform: translateY(-50%);
+        color: #A4A5A6;
+    }
+    .form-group input::placeholder {
+        color: #A4A5A6;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    
+    i.fa-brands.fa-google {
+        border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-facebook {
+    border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-apple {
+        width: 25px;
+        border: 2px solid silver;
+        border-radius: 62%;
+        padding: 5px 0px 7px 9px;
+    }
+
+    .form-group input {
+        width: 90%;
+        padding: 15px 10px 15px 31px;
+        border: 2px solid #9c9a9a;
+        border-radius: 30px;
+    }
+    .pic img {
+        margin-left: 28%;
+        width: 43%;
+        display: flex;
+        justify-content: center;
+    }
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .froms label {
+        margin-left: 3px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 33px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+
+    p {
+        text-align: center;
+    }
+    .svg {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+    .account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .account h2 {
+        font-size: 16px;
+        margin-left: 3px;
+        color: #73895D;
+    }
+    .registeration {
+        padding: 10px;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 26px 16px 24px 0px;
+    }
+    .logo{
+        display: none;
+    }
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+  
+    .form-group i {
+        position: absolute;
+        left: 13px;
+        top: 48%;
+        transform: translateY(-50%);
+        color: #A4A5A6;
+    }
+    .form-group input::placeholder {
+        color: #A4A5A6;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    
+    i.fa-brands.fa-google {
+        border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-facebook {
+    border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-apple {
+        width: 25px;
+        border: 2px solid silver;
+        border-radius: 62%;
+        padding: 5px 0px 7px 9px;
+    }
+
+    .form-group input {
+        width: 90%;
+        padding: 15px 10px 15px 31px;
+        border: 2px solid #9c9a9a;
+        border-radius: 30px;
+    }
+    .pic img {
+        margin-left: 28%;
+        width: 43%;
+        display: flex;
+        justify-content: center;
+    }
+    .heading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    .froms label {
+        margin-left: 3px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 33px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+
+    p {
+        text-align: center;
+    }
+    .svg {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+    .account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .account h2 {
+        font-size: 16px;
+        margin-left: 3px;
+        color: #73895D;
+    }
+    .registeration {
+        padding: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo1{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic img {
+        width: 100%;
+        height: 63%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo1{
+        display: none;
+    }
+    .logo{
+        display: block;
+    }
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic img {
+        width: 60%;
+    
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 16px 9px 16px 9px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo1{
+        display: none;
+    }
+    .logo{
+        display: flex;
+    }
+    .form-group {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .form-group input {
+        width: 100%;
+        padding: 15px 10px 15px 31px;
+        border: 2px solid #9c9a9a;
+        border-radius: 10px;
+    }
+    .form-group i {
+        position: absolute;
+        left: 13px;
+        top: 48%;
+        transform: translateY(-50%);
+        color: #A4A5A6;
+    }
+    .form-group input::placeholder {
+        color: #A4A5A6;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+    
+    i.fa-brands.fa-google {
+        border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-facebook {
+    border: 2px solid silver;
+        border-radius: 50%;
+        padding: 6px;
+    }
+    
+    i.fa-brands.fa-apple {
+        width: 25px;
+        border: 2px solid silver;
+        border-radius: 66%;
+        padding: 7px 9px 7px 11px;
+    }
+    .signup {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .pic {
+        width: 50%;
+        background-color: #E9F8E5;
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+    .pic img {
+       width: 60%;
+    }
+    
+    .registeration {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .froms {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 9px;
+    }
+    input.input {
+        border-radius: 11px;
+        padding: 9px;
+    }
+    .btn {
+        margin-top: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    button {
+        width: 98%;
+        background-color: #73895D;
+        border-radius: 22px 16px 22px 16px;
+        padding: 10px;
+        font-size: 23px;
+        color: white;
+    }
+    .svg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        margin-top: 20px;
+        font-size: 29px
+    }
+    .account {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 6px;
+        margin-top: 27px;
+    }
+    .account h2 {
+        font-size: 17px;
+        color: #73895D;
+    }
+}
+
